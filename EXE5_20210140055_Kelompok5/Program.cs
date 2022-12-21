@@ -80,8 +80,21 @@ namespace Exe5
                     Console.Write("\nEnter your choice: ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
+                    switch (ch)
+                    {
+                        case '1':
+                            q.insert();
+                            break;
+                        
+                    }
                 }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered.");
+                }
+
             }
+            
         }
     }
 }
