@@ -11,4 +11,13 @@ namespace Exe5
         public string name;
         public Node next;
     }
-}
+
+    class queue
+    {
+        Node Thariq, Azhar;
+        public queue()
+        {
+            Thariq = null;
+            Azhar = null;
+        }
+    }
