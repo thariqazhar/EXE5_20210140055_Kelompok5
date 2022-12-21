@@ -38,5 +38,16 @@ namespace Exe5
             Thariq.next = newnode;
             Azhar = newnode;
         }
+        public void delete()
+        {
+            if (Thariq == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            Thariq = Thariq.next;
+            if (Thariq == null)
+                Azhar = null;
+        }
     }
 }
