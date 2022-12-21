@@ -20,4 +20,23 @@ namespace Exe5
             Thariq = null;
             Azhar = null;
         }
+
+        public void insert()
+        {
+            string k5;
+            Node newnode = new Node();
+            Console.WriteLine("Masukan Element: ");
+            k5 = Console.ReadLine();
+            newnode.name = k5;
+            newnode.next = null;
+            if (Thariq == null)
+            {
+                Thariq = newnode;
+                Azhar = newnode;
+                return;
+            }
+            Thariq.next = newnode;
+            Azhar = newnode;
+        }
     }
+}
