@@ -85,6 +85,9 @@ namespace Exe5
                         case '1':
                             q.insert();
                             break;
+                        case '2':
+                            q.delete();
+                            break;
                         
                     }
                 }
