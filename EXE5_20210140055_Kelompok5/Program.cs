@@ -93,7 +93,9 @@ namespace Exe5
                             break;
                         case '4':
                             return;
-                        
+                        default:
+                            Console.WriteLine("Invalid Option");
+                            break;
                     }
                 }
                 catch (Exception e)
